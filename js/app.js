@@ -10,6 +10,12 @@ const lowerInput = document.getElementById("lowercase")
 const numberInput = document.getElementById("number")
 const symbolInput = document.getElementById("symbol")
 
+totalChar.addEventListener("input", function () {
+    if (totalChar.value > 20) {
+        totalChar.value = 20;
+    }
+});
+
 const getRandomData = (dataSet) =>{
     return dataSet[Math.floor(Math.random()*dataSet.length)]
 }
