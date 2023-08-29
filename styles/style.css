@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    border: 0;
+    text-align: center;
+    font-size: 1rem;
+    background-color: antiquewhite;
+    border-bottom: 1px solid;
+}
+
+input:hover{
+    background-color: aliceblue;
+}
+
+
+input:focus-visible{
+    outline: 0;
+}
+
+.main{
+    background-color: cornflowerblue;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title{
+    font-size: 4rem;
+    padding-bottom: 15px;
+    font-weight: bolder;
+    color: coral;
+    text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+.box{
+    min-width: 400px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    background-color: lightsalmon;
+    transition: 1s ease-out;
+}
+
+.box:hover{
+    border-radius: 20px;
+    box-shadow: 10px 10px 4px rgba(0,0,0,0.7);
+}
+
+#passbox
+{
+    width: 100%;
+    display: block;
+    background-color: aliceblue;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: black;
+    font-size: 20px;
+}
+
+label
+{
+    user-select: none;
+}
+
+#btn{
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    background-color: bisque;
+    color: rgb(60, 110, 202);
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: burlywood;
+    color: brown;
+    transform: translateY(-2px);
+    transition: transform 0.5 ease-in-out;
+    transform: translateX(-3px);
+    box-shadow: 5px 5px 2px;
+}
+
+ button.btn .btntxt:hover{
+    color: aliceblue;
+    
+}
